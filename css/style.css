@@ -634,6 +634,12 @@
 
 
 /* #### Media Queries #### */
+@media screen and (min-width: 400px){
+     .services .btn {
+         display: inline;
+         /* margin: 8.9rem; */
+     }
+}
 @media screen and (min-width: 500px){
     /* home page */
     .home .row-left h1{
