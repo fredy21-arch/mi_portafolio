@@ -634,7 +634,7 @@
 
 
 /* #### Media Queries #### */
-@media screen and (min-width: 400px){
+@media screen and (min-width: 350px){
      .services .btn {
          display: inline;
          /* margin: 8.9rem; */
