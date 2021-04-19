@@ -644,6 +644,7 @@
     }
     .home-pg-btn button{
         padding: 1rem 1.5rem;
+        
     }
     .home .img-container{
         width: 320px;
@@ -652,6 +653,20 @@
     .home .img-border{
         width: 325px;
         height: 325px;
+    }
+
+    .social-links a:hover {
+        background: var(--green);
+        transition: var(--transition);
+        cursor: pointer;
+
+    }
+
+    
+
+    .services .btn{
+        display: inline;
+        /* margin: 8.9rem; */
     }
 }
 
