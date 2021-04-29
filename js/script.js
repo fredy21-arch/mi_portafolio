@@ -18,8 +18,13 @@ window.addEventListener('resize', () => {
 
 
 //form//
+let btnClear = document.querySelector('button');
+let inputs = document.querySelectorAll('input');
 
-const d = document;
+
+btnClear.addEventListener('click', () =>{
+ input.forEach(input.value = '');
+});
 
 
 
