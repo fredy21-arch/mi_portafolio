@@ -17,6 +17,13 @@ window.addEventListener('resize', () => {
 });
 
 
+//form//
 
+const d = document;
 
+ function contactFormValidations(){
+   const $form = d.querySelector(".contact-form"),
+   $inputs = d.querySelectorAll(".contact-form[required]");
+   console.log($input);
+}
 
