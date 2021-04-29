@@ -100,11 +100,12 @@
         <div class = "col-right">
           <form enctype= "text/plain" action="mailto:joselines07@hotmail.com" method="POST" class = "contact-form">
               <div class = "form-group">
-              <input type = "text" name= "name" placeholder="nombre">
-              <input type = "email" name="email" placeholder="correo">
-              <input type = "text" name="project" placeholder="proyecto">
+              <input type = "text" name= "name" placeholder="nombre" title="Nombre sólo acepta letras y espacios en blenco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"required>
+              <input type = "email" name="email" placeholder="correo" title="Email incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"required>
+              <input type = "text" name="project" placeholder="proyecto"
+              title="Proyecto es requerido"required>
             </div>
-            <textarea rows = "5" name="message"></textarea>
+            <textarea rows = "5" name="message" placeholder="escribe tus comentarios" data-pattern="^.{1,255}$" required></textarea>
             <button type = "submit" class = "btn">enviar</button>
             <button type = "reset" class = "btn">Restablecer</button>
           </form>
