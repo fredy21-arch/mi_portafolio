@@ -18,13 +18,13 @@ window.addEventListener('resize', () => {
 
 
 //form//
-let btnClear = document.querySelector('button');
-let inputs = document.querySelectorAll('input');
+// let btnClear = document.querySelector('button');
+// let inputs = document.querySelectorAll('input');
 
 
-btnClear.addEventListener('click', () =>{
- input.forEach(input.value = '');
-});
+// btnClear.addEventListener('click', () =>{
+//  input.forEach(input.value = '');
+// });
 
 
 
