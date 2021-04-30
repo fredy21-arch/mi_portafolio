@@ -18,13 +18,34 @@ window.addEventListener('resize', () => {
 
 
 //form//
-// let btnClear = document.querySelector('button');
-// let inputs = document.querySelectorAll('input');
+function comprobar()
+{
+var nombre = document.formu.nombre.value;
+   var correo = document.formu.correo.value;
+   var proyecto = document.formu.proyecto.value;
+   
+    if (nombre.length > 20)
+   {
+      alert("Tu nombre es demasiado grande");
+      return false;
+   }
+    
+//     if (correo.length > 20)
+//    {
+//       alert("tu correo puede ser largo");
+//       return false;
+//    }
+
+      
+    if (proyecto.length > 20)
+   {
+      alert("Tu nombre es demasiado grande");
+      return false;
+   }
+}
+   
 
 
-// btnClear.addEventListener('click', () =>{
-//  input.forEach(input.value = '');
-// });
 
 
 
