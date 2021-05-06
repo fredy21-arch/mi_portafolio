@@ -496,6 +496,8 @@
     margin: 1.5rem auto;
     text-align: center;
 }
+
+
 .contact .row{
     margin: 1rem 0;
 }
@@ -643,6 +645,7 @@
          display: inline;
          /* margin: 8.9rem; */
      }
+  
 }
 @media screen and (min-width: 500px){
     /* home page */
@@ -748,6 +751,12 @@
     .contact .row > div{
         margin: 0;
     }
+     
+       iframe{
+        width: 70%;   
+        margin-left: 100px;
+     }
+
 }
 
 @media screen and (min-width: 992px){
